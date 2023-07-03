@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -53,9 +54,44 @@ a:hover {
 .hero {
     display: flex;
     flex-direction: row;
-    padding: 48px;
+    padding: 100px;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    
 }
 
 img {
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hero-text {
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+}
+
+
+
+
+.hero-paragraph {
+    display: flex;
+    align-items: center;
 }
