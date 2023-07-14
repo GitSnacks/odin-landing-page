@@ -9,7 +9,6 @@ body {
 }
 
 
-
 ul {
     display: flex;
     list-style-type: none;
@@ -59,6 +58,8 @@ a:hover {
     align-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    background-color: #1F2937;
+    color: #F9FAF8;
 
     
 }
