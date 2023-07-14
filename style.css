@@ -54,21 +54,20 @@ a:hover {
 .hero {
     display: flex;
     flex-direction: row;
-    padding: 100px;
-    justify-content: space-evenly;
+    padding: 48px;
+    justify-content: center;
     align-content: center;
-    margin-top: 48px;
+    gap: 10px;
     flex-wrap: wrap;
+
     
 }
 
 img {
     display: flex;
-    max-width: 600px;
+    max-width: 500px;
     justify-content: center;
     align-items: center;
-
-   
 }
 
 .hero-text {
