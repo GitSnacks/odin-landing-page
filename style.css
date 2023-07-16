@@ -36,18 +36,21 @@ a:hover {
     height: 100px;
     align-items: center;
     color: #F9FAF8;
+    
 }
 
 
 .NavBarLinks {
     display: flex;
     padding-right: 48px;
+    font-size: 18px;
 }
 
 .NavBarLogo {
     display: flex;
     justify-content: flex-start;
     padding-left:48px;
+    font-size: 24px;
 }
 
 .hero {
@@ -57,9 +60,9 @@ a:hover {
     justify-content: center;
     align-content: center;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     background-color: #1F2937;
-    color: #F9FAF8;
+    
 
     
 }
@@ -81,19 +84,35 @@ img {
 
 .hero-button {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: flex-start;
     margin-bottom: 10px;
 }
 
 button {
-    padding: 5px;
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
+button:hover {
+    background-color: #2d6cd1;
+}
 
-
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
 
 .hero-paragraph {
     display: flex;
     align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
