@@ -145,4 +145,32 @@ h1 {
     text-align: center;
     max-width: 200px;
     margin-top: 5px;
+    margin-bottom: 48px;
 }
+
+blockquote {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 48px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+ .Testimonial {
+    background-color: #E5E7EB;
+ }
+
+ .Testimonial p {
+    display: flex;
+    padding-right: 200px;
+    justify-content:right;
+    align-self: flex-start;
+    margin-top: -25px;
+    font-size: 24px;
+    font-weight: bold;
+
+ }
