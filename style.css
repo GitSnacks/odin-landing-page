@@ -89,7 +89,7 @@ img {
     margin-bottom: 10px;
 }
 
-button {
+.hero-button button {
     padding: 10px 30px;
     background-color: #3882f6;
     border: none;
@@ -130,6 +130,8 @@ h1 {
 .info-boxes {
     margin-left: 48px;
     margin-right: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -155,8 +157,8 @@ blockquote {
     font-style: italic;
     margin-top: 48px;
     justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
     text-align: center;
 
 }
@@ -172,5 +174,47 @@ blockquote {
     margin-top: -25px;
     font-size: 24px;
     font-weight: bold;
-
  }
+
+ /* Call to Action */
+
+ .C2A {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: none;
+    justify-content: space-between;
+ }
+
+.C2A-item {
+    flex: 1 
+}   
+
+.c2atext {
+    text-align: left;
+}
+
+.c2atext p {
+    color: #fff;
+    opacity: 0.7;  
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.c2abutton button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
