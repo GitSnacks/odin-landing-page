@@ -195,6 +195,7 @@ blockquote {
 
 .c2atext {
     text-align: left;
+    flex-shrink: inherit;
 }
 
 .c2atext p {
@@ -218,3 +219,12 @@ h3 {
     background-color: #3882F6;
     padding: 5px 25px;
     font-size: 15px;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-align: center;
+}
